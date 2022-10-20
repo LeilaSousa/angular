@@ -1,0 +1,28 @@
+.container{
+  width: 70vw;
+  height: 90vh;
+  margin:auto;
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+
+}.bgimg{
+  background: url(\src\assets\imagens\note-cafe.jpg);
+  height: 50%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:auto;
+  border-radius: 1em 1em 0em 0em;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.200);
+}section{
+  height: 60%;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  background-color: var(--lightBrown);
+  border-radius: 0em 0em 1em 1em;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.200);
+}h1, .msg{
+  padding:0.5em;
+}

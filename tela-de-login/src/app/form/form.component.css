@@ -1,0 +1,10 @@
+form{
+  text-align: left;
+  padding: 1em;
+}input{
+  border: none;
+  background-color: var(--gelo);
+  border-radius: 0.5em;
+  width: 80%;
+  height: 35px;
+}
