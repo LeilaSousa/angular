@@ -20,7 +20,7 @@ export class FormComponent implements OnInit {
 
     this.form = this.formBuilder.group({
       email: [null, [Validators.required, Validators.email]],
-      pass:[null,[Validators.required]],
+      pass:[null,[Validators.required, Validators.minLength(8)]],
     });
 
 

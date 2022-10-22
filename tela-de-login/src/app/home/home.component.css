@@ -16,7 +16,7 @@
   border-radius: 1em 1em 0em 0em;
   box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.200);
 }section{
-  height: 60%;
+  height: 50%;
   width: 100%;
   margin:auto;
   text-align: center;
@@ -24,12 +24,13 @@
   border-radius: 0em 0em 1em 1em;
   box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.200);
 }h1, .msg{
-  padding:0.5em;
+  padding:0.1em 0.3em 0.1em 0.3em;
 }
 @media (min-width: 750px){
 .container{
   display: flex;
   flex-direction: row;
+  width: 80vw;
 }.bgimg{
   height: 70%;
   width: 100%;
@@ -39,5 +40,7 @@
 }section{
 border-radius: 0em 1em 1em 0em;
 height: 70%;
+}h1, .msg{
+  padding: 1em;
 }
 }
