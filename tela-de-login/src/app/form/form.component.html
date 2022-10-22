@@ -1,7 +1,14 @@
-<form >
-  <label for="name">Nome</label><br>
-  <input type="text"name="name"><br>
+<div class="form" >
+  <form (ngSubmit)="submit()" #form>
+    <label for="name">Nome</label><br>
+    <input type="email"name="email" [(ngModel)]="email"><br>
 
-  <label for="pass">Senha</label><br>
-  <input type="password" name="pass">
-</form>
+    <label for="pass">Senha</label><br>
+    <input type="password" name="pass" [(ngModel)]="pass"><br>
+
+    <button type="submit">Entrar</button>
+
+  </form>
+  <p><a href="#" class="forget">Esqueci minha senha</a></p>
+</div>
+
