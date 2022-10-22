@@ -6,6 +6,11 @@
   --darkBrown: #846F5E;
   --black: #0c0b0b;
 
+  --bgGreenSuccess: #cbf5dd;
+  --bgRedAlert: #ffcbd1;
+  --redBorder: #f94449;
+  --greenBorder: #6eb47d;
+
   --poppins: 'Poppins', sans-serif;
 }
 *{

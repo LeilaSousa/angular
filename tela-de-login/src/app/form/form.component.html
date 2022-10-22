@@ -1,10 +1,16 @@
 <div class="form" >
-  <form (ngSubmit)="submit()" #form>
-    <label for="name">Nome</label><br>
-    <input type="email"name="email" [(ngModel)]="email"><br>
+  <form [formGroup]="form" (ngSubmit)="submit()" >
+
+    <label>E-mail</label><br>
+
+    <input type="email"name="email"
+    formControlName="email"
+    [ngClass]="cssFeedBack('email')"><br>
 
     <label for="pass">Senha</label><br>
-    <input type="password" name="pass" [(ngModel)]="pass"><br>
+    <input type="password" name="pass"
+    formControlName="pass"
+    [ngClass]="cssFeedBack('pass')"><br>
 
     <button type="submit">Entrar</button>
 

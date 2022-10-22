@@ -1,5 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
+import { FormGroup,FormBuilder,Validators } from '@angular/forms'
+
 
 
 @Component({
@@ -9,18 +11,39 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
 
-  email:string = ''
-  pass:string =''
+  form!: FormGroup;
 
-  constructor() { }
+
+  constructor(private formBuilder: FormBuilder) {  }
 
   ngOnInit(): void {
+
+    this.form = this.formBuilder.group({
+      email: [null, [Validators.required, Validators.email]],
+      pass:[null,[Validators.required]],
+    });
+
+
   }
 
+  verificaInvalid(campo:string){
+    return this.form.get(campo)?.invalid && this.form.get(campo)?.touched;
+  }
+
+  verificaValid(campo:string){
+    return this.form.get(campo)?.valid;
+  }
+
+  cssFeedBack(campo:string){
+      return{
+        'invalid': this.verificaInvalid(campo),
+        'valid':this.verificaValid(campo)
+      }
+    }
+
+
   submit(){
-
-  console.log('form');
-
+  console.log(this.form?.value);
   }
 
 }
