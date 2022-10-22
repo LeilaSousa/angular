@@ -12,6 +12,7 @@
   margin:0px;
   padding: 0px;
   font-family: 'Poppins', sans-serif;
+  color: var(--black);
 }
 html{
   background-color: var(--gelo);

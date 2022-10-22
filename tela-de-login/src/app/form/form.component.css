@@ -1,6 +1,6 @@
 form{
   text-align: left;
-  padding: 1em;
+  margin: 0.5em;
 }input{
   border: none;
   background-color: var(--gelo);
@@ -15,10 +15,17 @@ form{
   margin-top: 1em;
 }p{
   text-align: left;
-  margin: 0.3em;
+  margin-left: 0.5em;
 }.forget{
   font-size: 0.8em;
   cursor: pointer;
+  text-decoration: none;
+  color:var(--gelo);
+}.forget:hover{
+  background-color: var(--darkBrown);
+  padding: 0.2em;
+  border-radius: 4px;
+  text-decoration: underline;
 }
 
 
