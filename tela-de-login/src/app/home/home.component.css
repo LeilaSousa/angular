@@ -7,7 +7,7 @@
   flex-direction: column;
   box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.200);border-radius: 1em;
 }.bgimg{
-  background: url(\src\assets\imagens\note-cafe.jpg);
+  background: url(\src\assets\imagens\note-cafe-1000.jpg);
   min-height: 40vh;
   width: 100%;
   background-size: cover;
