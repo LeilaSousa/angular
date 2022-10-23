@@ -21,4 +21,6 @@
 }
 html{
   background-color: var(--gelo);
+}body{
+  min-height:100vh;
 }
