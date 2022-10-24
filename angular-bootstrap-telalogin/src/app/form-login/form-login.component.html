@@ -1,0 +1,24 @@
+<div class="container mt-5">
+  <h1>Entre</h1>
+  <form [formGroup]="form" (ngSubmit)="submit()" >
+
+    <div class="form-floating mb-3">
+      <input type="email" id="email" formControlName="email" class="form-control"
+      [ngClass]="cssFb('email')"
+      >
+      <label for="email" class="form-label"  >E-mail</label>
+      <p *ngIf="verificaInvalid('email')" [ngClass]="cssFb('email')">Digite um e-mail válido</p>
+    </div>
+
+
+    <div class="form-floating mb-3">
+      <input type="password" id="pass"formControlName="pass" class="form-control" [ngClass]="cssFb('pass')">
+
+      <label for="pass" class="form-label">Senha</label>
+
+      <p *ngIf="verificaInvalid('pass')" [ngClass]="cssFb('pass')">A senha deve conter pelo menos 8 dígitos.</p>
+    </div>
+
+    <button type="submit" class="btn btn-outline-primary" [disabled]="form.invalid">Entrar</button>
+  </form>
+</div>

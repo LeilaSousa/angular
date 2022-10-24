@@ -1,0 +1,7 @@
+p{
+  text-align: center;
+  font-size: 4em;
+}.container-fluid{
+  background-image: url(src/assets/imagens/pattern-background-desktop.svg);
+  height: 80vh;
+}

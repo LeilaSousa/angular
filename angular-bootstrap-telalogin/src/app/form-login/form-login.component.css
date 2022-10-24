@@ -1,0 +1,9 @@
+h1{
+  text-align: center;
+}
+.is-invalid, .is-valid{
+  display:block;
+}
+.valid-feedback, .invalid-feedback{
+  display:block;
+}
