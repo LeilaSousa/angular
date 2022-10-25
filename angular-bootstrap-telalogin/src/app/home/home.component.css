@@ -1,7 +1,23 @@
-p{
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.container-fluid{
+  display:flex;
+  flex-direction:row;
+  background:url(src/assets/imagens/bg.svg);
+  background-repeat: no-repeat;
+  height:91vh;
+}.welc{
+  margin: auto;
+  padding: 1em;
+}.nothing{
+  margin: auto;
+}p{
   text-align: center;
-  font-size: 4em;
-}.container-fluid{
-  background-image: url(src/assets/imagens/pattern-background-desktop.svg);
-  height: 80vh;
+  font-size: 3em;
+  color: dark-gray;
+  font-family: 'Anton', sem serifa;
+  margin: auto;
+}a{
+  text-decoration: none;
 }
+

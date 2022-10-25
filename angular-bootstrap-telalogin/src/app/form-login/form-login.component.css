@@ -1,9 +1,11 @@
 h1{
   text-align: center;
-}
-.is-invalid, .is-valid{
+}.is-invalid, .is-valid{
   display:block;
-}
-.valid-feedback, .invalid-feedback{
-  display:block;
+}.container-fluid{
+  background:url(src/assets/imagens/bg.svg);
+  background-repeat: no-repeat;
+  height: 95vh;
+
+
 }
