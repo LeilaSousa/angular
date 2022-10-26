@@ -4,14 +4,13 @@
   display:flex;
   background:url(src/assets/imagens/bg.svg);
   background-repeat: no-repeat;
-  height:91vh;
+  height:90vh;
 }.welc{
   margin: auto;
   padding: 1em;
 }p{
   text-align: center;
   font-size: 3em;
-  color: dark-gray;
   font-family: 'Anton', sem serifa;
   margin: auto;
 }a{
