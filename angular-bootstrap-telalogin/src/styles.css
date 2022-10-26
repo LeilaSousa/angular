@@ -1,4 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+:root{
+  /*colors*/
+  --lightPink: #fbc7d4;
+  --lightBlue: #9796f0;
+}
 *{
   margin:0px;
   padding:0px;

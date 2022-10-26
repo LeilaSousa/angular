@@ -1,6 +1,7 @@
 .navbar{
-  background-color: #9796f0;
+  background-color: var(--lightBlue);
 }.navbar-brand{
   font-weight: bold;
   font-size: 2em;
+  color:var(--lightPink);
 }

@@ -2,15 +2,12 @@
 
 .container-fluid{
   display:flex;
-  flex-direction:row;
   background:url(src/assets/imagens/bg.svg);
   background-repeat: no-repeat;
   height:91vh;
 }.welc{
   margin: auto;
   padding: 1em;
-}.nothing{
-  margin: auto;
 }p{
   text-align: center;
   font-size: 3em;
@@ -19,5 +16,6 @@
   margin: auto;
 }a{
   text-decoration: none;
+  color: var(--lightPink);
 }
 
